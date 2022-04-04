@@ -1,8 +1,8 @@
 import argparse
 import cv2
+import mediapipe
 
 #BGR - RGB
-
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="path to the img")
 args = vars(ap.parse_args())
