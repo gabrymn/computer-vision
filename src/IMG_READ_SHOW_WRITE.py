@@ -1,6 +1,5 @@
 import argparse
 import cv2
-import mediapipe
 
 #BGR - RGB
 ap = argparse.ArgumentParser()
@@ -18,4 +17,4 @@ print("height: {}".format(image.shape[0]))
 cv2.imshow("image", image)
 cv2.waitKey()
 
-cv2.imwrite("../out/01_img.jpg", image)
+cv2.imwrite("../out/02_img.jpg", image)
