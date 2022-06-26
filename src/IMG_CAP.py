@@ -22,7 +22,7 @@ while 1:
     if results.multi_hand_landmarks:
         for handLms in results.multi_hand_landmarks:
             for id, lm in enumerate(handLms.landmark):
-                print(id,lm)
+                print(id, "\n", lm)
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
     cTime = t.time()
