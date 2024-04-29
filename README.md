@@ -1,2 +1,2 @@
-# CVProject_1
+# Computer vision project: face detector
 
