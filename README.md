@@ -1,2 +1,5 @@
-# Computer vision project: face detector
+# Computer vision project
+ - Face detector 
+ - Hands tracker
+ - Traffic monitor
 
